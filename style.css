@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto&display=swap');
+
+/* font-family: 'Bebas Neue', cursive;
+font-family: 'Roboto', sans-serif; */
+
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
+:root{
+  --primaryColor: #FA804C;
+  --secondaryColor: #363958;
+  --paragraphColor: #3E3E3E;
+  --btnBackground-1: #3D4FF3;
+  --btnBackground-2: #3543BC;
+}
+
+.header-color{
+  background-color: #FFF9F4;
+}
+.custom-cover{
+  height: 500px;
+}
+.custom-carousel{
+  padding: 6.125rem 0;
+}
+.custom-header{
+  font-family: 'Bebas Neue', cursive;
+}
+.custom-primary{
+  color: var(--primaryColor);
+}
+.custom-secondary{
+  color: var(--secondaryColor);
+}
+.custom-paragraph{
+  color: var(--paragraphColor);
+}
+.custom-btn{
+  background: linear-gradient(180deg, var(--btnBackground-1), var(--btnBackground-2));
+}
