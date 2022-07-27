@@ -38,16 +38,24 @@ body{
 }
 .custom-btn{
   background: linear-gradient(180deg, var(--btnBackground-1), var(--btnBackground-2));
+  border: 2px solid transparent;
+  color: white;
+}
+.custom-btn:hover{
+  background: transparent;
+  border-color: var(--btnBackground-2);
+  color: var(--btnBackground-2);
 }
 .custom-card-img{
   height: 23.125rem;
 }
 .custom-accordion-img{
-  width: 40px;
+  width: 2.5rem;
 }
 .custom-margin-top{
   margin-top: 6.25rem;
 }
+
 .fa-instagram{
   color: #803EB5;
 }
@@ -59,4 +67,7 @@ body{
 }
 .fa-youtube{
   color: #F60002;
+}
+.social-icon a i:hover{
+  color: var(--btnBackground-2);
 }
