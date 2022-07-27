@@ -40,7 +40,10 @@ body{
   background: linear-gradient(180deg, var(--btnBackground-1), var(--btnBackground-2));
 }
 .custom-card-img{
-  height: 370px;
+  height: 23.125rem;
+}
+.custom-accordion-img{
+  width: 40px;
 }
 .custom-margin-top{
   margin-top: 6.25rem;
