@@ -19,7 +19,7 @@ body{
   background-color: #FFF9F4;
 }
 .custom-cover{
-  height: 500px;
+  height: 31.25rem;
 }
 .custom-carousel{
   padding: 6.125rem 0;
@@ -38,4 +38,10 @@ body{
 }
 .custom-btn{
   background: linear-gradient(180deg, var(--btnBackground-1), var(--btnBackground-2));
+}
+.custom-card-img{
+  height: 370px;
+}
+.custom-margin-top{
+  margin-top: 6.25rem;
 }
