@@ -17,7 +17,7 @@
       <nav class="navbar navbar-expand-lg fixed-top header-color">
         <div class="container">
           <a class="navbar-brand w-25" href="#">
-            <img class="w-100" src="./images/icons/Logo.png" alt="Logo">
+            <img class="w-100" src="./images/logo/logo.png" alt="Logo">
           </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -32,16 +32,16 @@
                   Product
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Casual Shoes</a></li>
-                  <li><a class="dropdown-item" href="#">Formal Shoes</a></li>
-                  <li><a class="dropdown-item" href="#">Other Products</a></li>
+                  <li><a class="dropdown-item" href="#casual-shoes">Casual Shoes</a></li>
+                  <li><a class="dropdown-item" href="#formal-shoes">Formal Shoes</a></li>
+                  <li><a class="dropdown-item" href="">Other Products</a></li>
                 </ul>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">About Us</a>
+                <a class="nav-link" href="#about-us">About Us</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Contact Us</a>
+                <a class="nav-link" href="#contact-us">Contact Us</a>
               </li>
             </ul>
           </div>
@@ -136,7 +136,7 @@
       <!--------------- 
       Casual Shoes Area 
       ---------------->
-      <section class="custom-margin-top">
+      <section class="custom-margin-top" id="casual-shoes">
         <h2 class="display-4 fw-bold text-uppercase custom-secondary custom-header mb-3">casual shoes</h2>
         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-5">
           <div class="col h-100">
@@ -177,7 +177,7 @@
                 <img src="./images/shoes/shoes3.png" class="card-img-top custom-card-img" alt="Sneakers Basketball Shoe">
               </div>
               <div class="card-body">
-                <h3 class="card-title custom-secondary fw-semibold">Sneakers Basketball Shoe</h3>
+                <h3 class="card-title custom-secondary fw-semibold">Basketball Shoe</h3>
                 <p class="card-text custom-paragraph">Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
                 <div class="d-flex justify-content-between">
                   <h2 class="fw-semibold custom-primary">$230</h2>
@@ -194,7 +194,7 @@
       <!--------------- 
       Formal Shoes Area 
       ---------------->
-      <section class="my-5">
+      <section class="my-5" id="formal-shoes">
         <h2 class="display-4 fw-bold text-uppercase custom-secondary custom-header mb-3">formal shoes</h2>
         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-5">
           <div class="col h-100">
@@ -252,8 +252,8 @@
       <!----------- 
       Services Area
       ------------>
-      <section class="custom-margin-top">
-        <div class="row">
+      <section class="custom-margin-top" id="about-us">
+        <div class="row align-items-center">
           <div class="col-lg-5 order-2 order-lg-1">
             <div class="accordion" id="accordionExample">
               <div class="accordion-item">
@@ -261,13 +261,13 @@
                   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                    <div class="d-flex align-items-center">
                     <img class="custom-accordion-img" src="./images/icons/house.png" alt="">
-                    <strong class="ms-3">Find the Perfect Fit</strong>
+                    <strong class="ms-3 custom-secondary">Find the Perfect Fit</strong>
                    </div>
                   </button>
                 </h2>
                 <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                   <div class="accordion-body">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, magnam? Quam, temporibus unde. Provident alias ipsa libero necessitatibus vero consequuntur distinctio reprehenderit, est, deleniti qui odit autem laudantium ab, cum architecto illo natus officiis. Odit perspiciatis ab placeat eos expedita.</p>
+                    <p class="custom-paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, magnam? Quam, temporibus unde. Provident alias ipsa libero necessitatibus vero consequuntur distinctio reprehenderit, est, deleniti qui odit autem laudantium ab, cum architecto illo natus officiis. Odit perspiciatis ab placeat eos expedita.</p>
                   </div>
                 </div>
               </div>
@@ -276,13 +276,13 @@
                   <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                     <div class="d-flex align-items-center">
                       <img class="custom-accordion-img" src="./images/icons/box.png" alt="">
-                      <strong class="ms-3">Free Exchanges</strong>
+                      <strong class="ms-3 custom-secondary">Free Exchanges</strong>
                      </div>
                   </button>
                 </h2>
                 <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                   <div class="accordion-body">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, magnam? Quam, temporibus unde. Provident alias ipsa libero necessitatibus vero consequuntur distinctio reprehenderit, est, deleniti qui odit autem laudantium ab, cum architecto illo natus officiis. Odit perspiciatis ab placeat eos expedita.</p>
+                    <p class="custom-paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, magnam? Quam, temporibus unde. Provident alias ipsa libero necessitatibus vero consequuntur distinctio reprehenderit, est, deleniti qui odit autem laudantium ab, cum architecto illo natus officiis. Odit perspiciatis ab placeat eos expedita.</p>
                   </div>
                 </div>
               </div>
@@ -291,26 +291,54 @@
                   <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                     <div class="d-flex align-items-center">
                       <img class="custom-accordion-img" src="./images/icons/contact.png" alt="">
-                      <strong class="ms-3">Contact Our Seller</strong>
+                      <strong class="ms-3 custom-secondary">Contact Our Seller</strong>
                      </div>
                   </button>
                 </h2>
                 <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                   <div class="accordion-body">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, magnam? Quam, temporibus unde. Provident alias ipsa libero necessitatibus vero consequuntur distinctio reprehenderit, est, deleniti qui odit autem laudantium ab, cum architecto illo natus officiis. Odit perspiciatis ab placeat eos expedita.</p>
+                    <p class="custom-paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, magnam? Quam, temporibus unde. Provident alias ipsa libero necessitatibus vero consequuntur distinctio reprehenderit, est, deleniti qui odit autem laudantium ab, cum architecto illo natus officiis. Odit perspiciatis ab placeat eos expedita.</p>
                   </div>
                 </div>
               </div>
             </div>
           </div>
 
-          <div class="col-lg-6 order-1 order-lg-2">
+          <div class="col-lg-7 order-1 order-lg-2">
             <img class="img-fluid" src="./images/icons/shop.png" alt="shop">
           </div>
         </div>
       </section>
       <!-- END Services -->
     </main>
+
+
+    <footer class="custom-margin-top header-color py-5">
+      <div class="container justify-content-end">
+        <div class="d-flex flex-column-reverse flex-lg-row justify-content-lg-between align-items-center align-items-lg-stretch">
+          <div class="contact-area mt-4 mt-lg-0 text-center text-lg-start" id="contact-us">
+            <h5 class="custom-secondary fw-semibold mb-3">Contact Us</h5>
+            <address>
+              1360 Fulton St, Brooklyn <br> NY 11216, United States
+            </address>
+            <p class="custom-paragraph">Tel. +17186366973</p>
+          </div>
+          <div class="d-lg-flex justify-content-lg-end w-25">
+            <div class="w-100">
+              <img class="w-100" src="./images/logo/logo.png" alt="Penguin Fashion">
+              <div class="social-icon text-center fs-4 mt-3">
+                <a class="px-lg-2" href="https://www.instagram.com/accounts/login/"><i class="fa-brands fa-instagram"></i></a>
+                <a class="px-lg-2" href="https://twitter.com/i/flow/login"><i class="fa-brands fa-twitter"></i></a>
+                <a class="px-lg-2" href="https://www.facebook.com/login/"><i class="fa-brands fa-snapchat"></i></a>
+                <a class="px-lg-2" href="https://www.youtube.com/"><i class="fa-brands fa-youtube"></i></a>
+              </div>
+            </div>
+          </div>
+          </div>
+          <p class="text-center mt-5 custom-paragraph">Copyright &copy; 2022 Penguin Fashion. All rights reserved</p>
+        </div>
+      </div>
+    </footer>
 
 
     <!-- Bootstrap JS -->
